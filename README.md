@@ -2,6 +2,13 @@
 
 ## Description
 
+
+Adding user inputs such as their answers and initials, 
+
+
+This helps us understand the relatioship between onteractions and the use of the DOM 
+
+
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
 - What was your motivation?
@@ -10,8 +17,6 @@ Provide a short description explaining the what, why, and how of your project. U
 - What did you learn?
 
 ## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -34,11 +39,41 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Initial code: 
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+https://zoom.us/rec/play/WbozKPOyv6r0jvAInvUVpBb9C-X_NSsUQrCJHT9mVekoIUo7ARn999l1zCmoOpAgV85pw4Nq3evSKyPq.pCA-dwSUtj5Vy27m?continueMode=true&_x_zm_rtaid=SD_YvrBaTziEIRX91kFHig.1680783575538.9a0e8b2eeb80becd766ba2eca2229573&_x_zm_rhtaid=52 
 
-If you followed tutorials, include links to those here as well.
+class videos:
+
+
+Timer: 
+https://developer.mozilla.org/en-US/docs/Web/API/setInterval
+
+
+
+EventListener: 
+
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
+
+
+Linked files: 
+
+
+Render Questions: 
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data/Home_page
+
+Extra Resources: 
+
+https://stackoverflow.com/questions/25460002/how-to-use-click-to-proceed-to-next-form-elements-and-hide-current-one
+
+
+
+
+
+
+
+
 
 ## License
 
