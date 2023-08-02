@@ -1,53 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Coding Quiz</title>
 </head>
 
 <body>
-<!-- start quiz -->
-<div id="openquiz">
-    <form id="quizInstructionsForm"> 
-        <h1> Coding Quiz Challenge</h1>
-        <p>Try to answer the following code-related questions withint he time limit.
-            keep in mind that incorrect answers will penalize your score/time by ten secods!
-        </p>
-        <button id="startQuizBtn" onclick="startQuiz"></button>
-    </form>
+    <!-- start quiz -->
+    <div id="openquiz">
+        <form id="quizInstructionsForm">
+            <h1> Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions withint he time limit.
+                keep in mind that incorrect answers will penalize your score/time by ten secods!
+            </p>
+            <button id="startQuizBtn" onclick="startQuiz"></button>
+        </form>
     </div>
 
-<!-- Questions and Answers -->
+    <!-- Questions and Answers -->
 
-<div id ="quiz">
-<h1 id="questions"></h1>
-<button id="answer1" onclick="checkAnswer(0)"></button>
-<button id="answer2" onclick="checkAnswer(1)"></button>
-<button id="answer3" onclick="checkAnswer(2)"></button>
-<button id="answer4" onclick="checkAnswer(3)"></button>
-</div>
+    <div id="quiz">
+        <h1 id="questions"></h1>
+        <button id="answer1" onclick="checkAnswer(0)"></button>
+        <button id="answer2" onclick="checkAnswer(1)"></button>
+        <button id="answer3" onclick="checkAnswer(2)"></button>
+        <button id="answer4" onclick="checkAnswer(3)"></button>
+    </div>
 
-<!-- Timer -->
-<div id="timer"></div>
+    <!-- Timer -->
+    <div id="timer"></div>
 
-<!-- View high scores -->
-<a href="highscores.html" id="viewHighScores"> View High Scores</a>    
+    <!-- End Quiz -->
+    <h1 id="endOfQuiz">All done!</h1>
+    <div> your final score is </div>
 
-<!-- End Quiz -->
-<div>
-    <a href="highscores.html" ></a>    
-    <button id="submit" onclick="">Submit</button>
-</div>
-
-<!-- Input Student Initals -->
+    <!-- Input Student Initals -->
 
     <p id="enterInitials">Enter Initials</p>
     <input type="text" id="userInitials" onchange="updateInitials()">
 
-<!-- javaScrip linked -->
-<script src="highscores.js"></script>
-<script src="index.js"></script>
+    <!--Submit -->
+    <div>
+        <a href="highscores.html"></a>
+        <button id="submit" onclick="">Submit</button>
+    </div>
+
+    <!-- View high scores -->
+    <a href="highscores.html" id="viewHighScores"> View High Scores</a>
+
+    <!-- javaScrip linked -->
+    <script src="highscores.js"></script>
+    <script src="index.js"></script>
 
 </body>
+
 </html>

@@ -1,44 +1,35 @@
 
-let formEL = ('#highScores-form');
-let studentScore  = ("#");
-let StudentInitials = ("");
+// let formEL = ('#highScores-form');
+// let studentScore = ("#");
+// let StudentInitials = ("");
 
-highScoresEL = $('#highScores-list')
-let highScores = JSON.parse(localStorage.getItem("highScores")) || [];
+// highScoresEL = $('#highScores-list')
+// let highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
-//What is this doing 
-for (let i = 0; i < highScores.length; i++) {
-    printhiScores([i].initials,highScores[i]."")
-}
+// //prints highscores 
+// for (let i = 0; i < highScores.length; i++) {
+//    printHighScores(highScores[i].initials, highScores[i].scores)
+// }
 
-// print initials and scores
-function printhiscores = function (initials,score){
-let listEL = 
-listEL.addclass("list-group-item").text(list)
-listEL.appendTo(highScoresListE1);
-}
+// // print initials and scores
+// function printhiscores(initials, score) {
+//    let listEL = listEL.addclass("list-group-item").text(list)
+//    listEL.appendTo(highScoresListE1);
+// }
 
+// let quizSummition = function (event) {
+//    event.preventDefault();
 
+//    let studentInitials = studentInitialsEL.val();
+//    let studentScore = studentScoreEL.val();
 
-let quizSummition = function (event){
-   event.preventDefault();
+//    if (!studentInitials)
+//       console.log("Please enter your initials")
+//    return;
 
-   let studentInitials = studentInitialsEL.val();
-   let studentScore = studentScoreEL.val();
-
-   if(!studentInitials)
-   console.log("Please enter your initials")
-   return;
-
-   highScores.push({initials.studentInitials, score.studentScore})
-printSkills(studentInitials, score);
+//    // highScores.push({ initials.studentInitials, score.studentScore })
+//    // printSkills(studentInitials, score);
 
 
-   studentInitials.val(" ")
-}  
-
-
-
-
-//Some button that saves add
-//localStorage.setItem("highScores", JSON.stringify([{"initials": "JA","Score": 100}]))
+//    // studentInitials.val(" ")
+// }  
