@@ -2,19 +2,7 @@
 
 ## Description
 
-
-Adding user inputs such as their answers and initials, 
-
-
-This helps us understand the relatioship between onteractions and the use of the DOM 
-
-
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+The Quiz generator 
 
 ## Table of Contents (Optional)
 
@@ -49,13 +37,17 @@ class videos:
 Timer: 
 https://developer.mozilla.org/en-US/docs/Web/API/setInterval
 
-
-
 EventListener: 
-
 https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 
+Style: 
+Btns
+https://uxdesign.cc/button-design-user-interface-components-series-85243b6736c7
+https://tutorialdeep.com/knowhow/css-align-button-right-left-center-position/
+https://developer.mozilla.org/en-US/docs/Web/CSS/:hover
 
+Font
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
 
 Linked files: 
 
@@ -68,6 +60,8 @@ Extra Resources:
 https://stackoverflow.com/questions/25460002/how-to-use-click-to-proceed-to-next-form-elements-and-hide-current-one
 
 https://stackoverflow.com/questions/41326567/uncaught-referenceerror-function-is-not-defined-at-
+
+https://medium.com/codex/how-to-style-an-input-field-with-css-only-tips-and-techniques-e6a00e9dcc50
 
 
 
